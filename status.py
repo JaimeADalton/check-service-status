@@ -10,6 +10,3 @@ def status():
                 status = os.system('systemctl is-active --quiet mysql')
         else:
             return True
-
-if platform == 'linux2':
-    status()
