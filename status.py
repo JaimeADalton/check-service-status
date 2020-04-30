@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import time
 import os
-from sys import platform
 
 def status():
         status = os.system('systemctl is-active --quiet mysql')
